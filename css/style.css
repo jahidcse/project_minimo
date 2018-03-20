@@ -1,0 +1,264 @@
+/*css code here..*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #8C8C8C;
+    font-family: 'Playfair Display', serif;
+}
+
+.common_margin {
+    margin-top: 40px;
+}
+
+header {
+    overflow: hidden;
+    margin-top: 25px;
+}
+
+#slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+#intro {
+    overflow: hidden;
+}
+
+#description {
+    overflow: hidden;
+}
+
+#newsletter {
+    overflow: hidden;
+    background-color: #F3F3F3;
+}
+
+#lifestyle {
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    width: 20%;
+    margin-top: 20px;
+}
+
+.logo h1 {
+    text-transform: uppercase;
+    color: #2D2D2D;
+    font-size: 36px;
+    font-weight: 100;
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: 5px;
+}
+
+.nav {
+    float: right;
+    width: 70%;
+    margin-top: 20px;
+}
+
+.nav ul {
+    list-style: none;
+    float: right;
+}
+
+.nav ul li {
+    float: left;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    /*display block use na korla top
+  bottom padding kag korba na*/
+    padding: 10px 40px;
+    font-size: 18px;
+    color: #CDCDCD;
+}
+
+.nav ul li a:last-child{
+    padding-right: 21px;
+}
+
+.nav ul li a:hover {
+    color: black;
+}
+
+.slider {}
+
+.site_intro {
+    padding: 0px 65px;
+}
+
+.site_intro h1 {
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 17px;
+}
+
+.captiontag {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+.site_intro p {
+    font-size: 20px;
+    line-height: 35px;
+    padding: 25px 0px;
+}
+
+.blog {
+    padding: 0px 15px;
+}
+
+.single_blog {
+    width: 40%;
+    float: left;
+    margin: 50px 46px;
+}
+
+.blog_thumb {}
+
+.blog_thumb img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.blog_data {
+    margin-top: 20px;
+}
+
+.blog_data h1 {
+    font-size: 30px;
+    font-weight: 100;
+
+}
+
+.blog_data p {
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px 0px;
+
+}
+
+.newsletter_form {
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.newsletter_form h1 {
+    font-size: 40px;
+    color: #2D2D2D;
+    padding: 20px 0px;
+}
+
+.newsletter_form form {
+    position: relative;
+    width: 445px;
+    margin: 0 auto;
+}
+
+.newsletter_form form input {
+    width: 453px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.newsletter_form form button {
+    position: absolute;
+    border: none;
+    background: transparent;
+    right: 4px;
+    top: 10px;
+}
+button:hover{
+    background:#DDDDDD;
+    cursor: pointer;
+    transition: 2s;
+}
+.lifestyle_blog {}
+
+.load_more {
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.load_more_btn {
+    background-color: transparent;
+    text-transform: capitalize;
+    border: 2px solid gray;
+    font-size: 21px;
+    padding: 15px 30px;
+
+}
+
+footer {
+    overflow: hidden;
+    background-color: #F3F3F3;
+}
+
+.footer_content {}
+
+.left_info {
+    float: left;
+    width: 50%;
+    padding-bottom: 30px;
+}
+
+.left_info ul,
+.right_info ul {
+    list-style: none;
+}
+
+
+.left_info ul li,
+.right_info ul li {
+    float: left;
+}
+
+.left_info ul li a {}
+
+.left_info ul li a,
+.right_info ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+    padding: 15px;
+    display: block;
+}
+.right_info {
+    float: right;
+    width: 50%;
+    padding-bottom: 30px;
+}
+
+.right_info ul {
+    float: right;
+}
+
+.fa.fa-facebook-f:hover {
+    color: red;
+	
+}
+.fa.fa-twitter:hover {
+    color: red;
+    
+}
+.fa.fa-instagram:hover {
+    color: red;
+   
+}
